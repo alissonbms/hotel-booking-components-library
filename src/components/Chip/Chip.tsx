@@ -1,13 +1,13 @@
 import React from 'react';
 import styles from './Chip.module.scss';
 
-export interface ChipProps {
+export type ChipProps = {
   title: string;
   width: number;
   color?: string;
   textColor?: string;
   type?: 'filled' | 'outlined';
-}
+};
 
 const Chip = ({ title, width, color, textColor, type }: ChipProps) => {
   const style =
