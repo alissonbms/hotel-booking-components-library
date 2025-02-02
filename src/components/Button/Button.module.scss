@@ -1,0 +1,29 @@
+.rounded {
+  height: 51px;
+  border-radius: 52.624px;
+  line-height: normal;
+}
+
+.normal {
+  height: 60px;
+  border-radius: 5px;
+}
+
+.orange {
+  background: var(--orange-400);
+  box-shadow: 0px 8px 16px 0px;
+  color: white;
+}
+
+.orange__outline {
+  background: #fff;
+  border: 1px solid var(--orange-400);
+  color: var(--orange-400);
+}
+
+.white {
+  border: 1.504px solid #b7b7b7;
+  background: #fff;
+  box-shadow: 0px 1.5035336017608643px 3.0070672035217285px 0px;
+  color: #000;
+}
