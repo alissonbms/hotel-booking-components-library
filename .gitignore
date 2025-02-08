@@ -6,3 +6,4 @@ dist
 example
 test
 .github
+*storybook.log
