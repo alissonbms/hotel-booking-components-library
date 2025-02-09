@@ -5,8 +5,12 @@ const meta: Meta<typeof ConfirmDialog> = {
   title: 'Components/ConfirmDialog',
   component: ConfirmDialog,
   parameters: {
-    layout: 'centered',
+    layout: 'fullscreen',
+    docs: {
+      story: { inline: false, height: '700px' },
+    },
   },
+  tags: ['autodocs'],
   argTypes: {},
 };
 
