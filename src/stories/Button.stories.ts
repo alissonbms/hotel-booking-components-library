@@ -16,7 +16,6 @@ type Story = StoryObj<typeof Button>;
 
 export const Rounded: Story = {
   args: {
-    title: 'Rounded button',
     children: 'Rounded button',
     variant: 'rounded',
     colors: 'orange',
@@ -26,7 +25,6 @@ export const Rounded: Story = {
 
 export const Normal: Story = {
   args: {
-    title: 'Normal button',
     children: 'Normal button',
     variant: 'normal',
     colors: 'orange__outline',
@@ -36,7 +34,6 @@ export const Normal: Story = {
 
 export const White: Story = {
   args: {
-    title: 'White button',
     children: 'White button',
     variant: 'rounded',
     colors: 'white',
