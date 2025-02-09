@@ -1,8 +1,11 @@
-import React, { HTMLAttributes } from 'react';
+import React, { DetailedHTMLProps, InputHTMLAttributes } from 'react';
 import '../../styles/global.scss';
 import styles from './Input.module.scss';
 
-export type InputProps = HTMLAttributes<HTMLInputElement> & {
+export type InputProps = DetailedHTMLProps<
+  InputHTMLAttributes<HTMLInputElement>,
+  HTMLInputElement
+> & {
   labelText?: string;
   labelId?: string;
   width?: number;
@@ -23,7 +26,9 @@ const Input = ({
   ...props
 }: InputProps) => {
   const paddingIcon =
-    iconPosition === 'left' ? '0px 18.216px 0px 40px' : '0px 40px 0px 18.042px';
+    iconPosition === 'left'
+      ? `0px 18.216px 0px ${iconSize + 18}px`
+      : `0px ${iconSize + 18}px 0px 18.042px`;
 
   return (
     <div
