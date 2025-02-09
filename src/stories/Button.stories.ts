@@ -4,10 +4,11 @@ import Button from '../components/Button/Button';
 const meta: Meta<typeof Button> = {
   title: 'Form/Button',
   component: Button,
-  parameters: {  
+  parameters: {
     layout: 'centered',
   },
-  argTypes: {}, 
+  tags: ['autodocs'],
+  argTypes: {},
 };
 
 export default meta;
