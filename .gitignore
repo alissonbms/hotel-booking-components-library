@@ -5,5 +5,4 @@ node_modules
 dist
 example
 test
-.github
 *storybook.log
