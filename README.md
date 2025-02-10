@@ -1,4 +1,8 @@
-<h1 align="center">Hotel Booking Component Library</h1>
+<!-- README for NPM, the one for GitHub is in .github directory. -->
+
+### 📋 About the project
+
+<p>A personal library of components that will be used in my hotel booking project.</p>
 
 ### 🚀 Technologies
 
@@ -8,40 +12,7 @@
 - [Sass](https://sass-lang.com/)
 - [Storybook](https://storybook.js.org/)
 
----
+Please refer to the [Storybook](https://hotel-booking-components-library.vercel.app/?path=/docs/welcome-to-the-library--docs) for full documentation, including example images of the components,<br/>
+or refer to the [GitHub README](https://github.com/alissonbms/hotel-booking-components-library#readme) if you just want to see example images of the components.
 
-## 📋 Form components
-
-- <h3>Button</h3>
-
-<img src="./src/.github/github-button.png" alt="button component picture">
-
-- <h3>Input</h3>
-
-<img src="./src/.github/github-input.png" alt="input component picture">
-
----
-
-## ⚙️ General components
-
-- <h3>Chip</h3>
-
-<img src="./src/.github/github-chip.png" alt="chip component picture">
-
-- <h3>Confirm Dialog</h3>
-
-<img src="./src/.github/github-confirm-dialog-1.png" alt="confirm dialog caution - component picture">
-<img src="./src/.github/github-confirm-dialog-2.png" alt="confirm dialog success - component picture">
-
-- <h3>Notification Dialog</h3>
-
-<img src="./src/.github/github-notification-dialog-1.png" alt="notification dialog caution - component picture">
-<img src="./src/.github/github-notification-dialog-2.png" alt="notification dialog success - component picture">
-
-- <h3>Modal</h3>
-
-<img src="./src/.github/github-modal.png" alt="modal component picture">
-
----
-
-### 👉 [See my Linkedin](https://www.linkedin.com/in/alisson-modesto-fullstack-developer/)
+#### 👉 [See my LinkedIn](https://www.linkedin.com/in/alisson-modesto-fullstack-developer/)
