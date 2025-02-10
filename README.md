@@ -14,11 +14,11 @@
 
 - <h3>Button</h3>
 
-<img src="./.github/github-button.png" alt="button component picture">
+<img src="./src/.github/github-button.png" alt="button component picture">
 
 - <h3>Input</h3>
 
-<img src="./.github/github-input.png" alt="input component picture">
+<img src="./src/.github/github-input.png" alt="input component picture">
 
 ---
 
@@ -26,21 +26,21 @@
 
 - <h3>Chip</h3>
 
-<img src="./.github/github-chip.png" alt="chip component picture">
+<img src="./src/.github/github-chip.png" alt="chip component picture">
 
 - <h3>Confirm Dialog</h3>
 
-<img src="./.github/github-confirm-dialog-1.png" alt="confirm dialog caution - component picture">
-<img src="./.github/github-confirm-dialog-2.png" alt="confirm dialog success - component picture">
+<img src="./src/.github/github-confirm-dialog-1.png" alt="confirm dialog caution - component picture">
+<img src="./src/.github/github-confirm-dialog-2.png" alt="confirm dialog success - component picture">
 
 - <h3>Notification Dialog</h3>
 
-<img src="./.github/github-notification-dialog-1.png" alt="notification dialog caution - component picture">
-<img src="./.github/github-notification-dialog-2.png" alt="notification dialog success - component picture">
+<img src="./src/.github/github-notification-dialog-1.png" alt="notification dialog caution - component picture">
+<img src="./src/.github/github-notification-dialog-2.png" alt="notification dialog success - component picture">
 
 - <h3>Modal</h3>
 
-<img src="./.github/github-modal.png" alt="modal component picture">
+<img src="./src/.github/github-modal.png" alt="modal component picture">
 
 ---
 
