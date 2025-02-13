@@ -7,7 +7,7 @@ const meta: Meta<typeof Modal> = {
   parameters: {
     layout: 'fullscreen',
     docs: {
-      story: { inline: false, height: '380px' },
+      story: { inline: false, height: '400px' },
     },
   },
   tags: ['autodocs'],
@@ -20,10 +20,6 @@ type Story = StoryObj<typeof Modal>;
 export const Default: Story = {
   args: {
     open: true,
-    btnConfirmText: 'Confirm',
-    btnCancelText: 'Cancel',
-    handleConfirm: () => {},
-    handleCancel: () => {},
     width: 500,
     height: 300,
   },
