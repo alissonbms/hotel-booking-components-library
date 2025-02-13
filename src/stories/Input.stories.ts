@@ -17,6 +17,7 @@ type Story = StoryObj<typeof Input>;
 export const Default: Story = {
   args: {
     placeholder: 'Enter your name',
+    type: 'text',
   },
 };
 
@@ -27,6 +28,7 @@ export const WithIcon: Story = {
     icon: 'https://img.icons8.com/?size=100&id=12082&format=png&color=000000',
     iconPosition: 'left',
     iconSize: 32,
+    type: 'text',
   },
 };
 
@@ -34,5 +36,6 @@ export const WithLabel: Story = {
   args: {
     labelText: 'Name',
     labelId: 'name',
+    type: 'text',
   },
 };
