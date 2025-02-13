@@ -1,10 +1,13 @@
-import React from 'react';
+import React, { DetailedHTMLProps, HTMLAttributes } from 'react';
 import Button from '../Button/Button';
 import CautionIcon from '../icons/CautionIcon';
 import SuccessIcon from '../icons/SuccessIcon';
 import styles from './ConfirmDialog.module.scss';
 
-export type ConfirmDialogProps = {
+export type ConfirmDialogProps = DetailedHTMLProps<
+  HTMLAttributes<HTMLDivElement>,
+  HTMLDivElement
+> & {
   open: boolean;
   type: 'error' | 'success';
   title: string;
@@ -24,11 +27,12 @@ const ConfirmDialog = ({
   btnCancelText,
   handleConfirm,
   handleCancel,
+  ...props
 }: ConfirmDialogProps) => {
   return (
     <>
       {open && (
-        <div className={styles.container}>
+        <div {...props} className={`${props.className} ${styles.container}`}>
           <div className={styles.dialog}>
             <div className={styles.icon}>
               {type === 'success' ? <SuccessIcon /> : <CautionIcon />}
