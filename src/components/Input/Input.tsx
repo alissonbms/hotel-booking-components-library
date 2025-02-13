@@ -13,6 +13,7 @@ export type InputProps = DetailedHTMLProps<
   icon?: string;
   iconPosition?: 'right' | 'left';
   iconSize?: number;
+  handleClickIcon?: () => void;
 };
 
 const Input = ({
@@ -23,6 +24,7 @@ const Input = ({
   icon,
   iconPosition = 'left',
   iconSize = 24,
+  handleClickIcon,
   ...props
 }: InputProps) => {
   const paddingIcon =
@@ -32,7 +34,7 @@ const Input = ({
 
   return (
     <div
-      className={styles['container-input']}
+      className={`${props.className} ${styles['container-input']}`}
       style={{ width: width ? `${width}px` : '100%' }}
     >
       {labelText && <label htmlFor={labelId}>{labelText}</label>}
@@ -41,6 +43,7 @@ const Input = ({
           <img
             src={icon}
             alt="icon"
+            onClick={handleClickIcon}
             style={{
               [iconPosition]: '16px',
               width: `${iconSize}px`,
@@ -49,9 +52,8 @@ const Input = ({
           />
         )}
         <input
-          id={labelId}
-          type="text"
           {...props}
+          id={labelId}
           style={{
             height: height ? `${height}px` : '60px',
             padding: icon ? paddingIcon : '0px 18.216px 0px 18.042px',
